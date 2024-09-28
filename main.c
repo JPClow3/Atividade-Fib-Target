@@ -20,7 +20,6 @@ int main() {
         printf("O número %d pertence à sequência de Fibonacci.\n", n);
         return 0;
     }
-
     while (fib3 < n) {
         fib3 = fib1 + fib2;
         fib1 = fib2;
